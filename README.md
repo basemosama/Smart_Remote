@@ -1,8 +1,8 @@
 
 # Smart Remote
 This an Esp8266 Wifi module code to turn on or off Devices by using Smart Remote app.
-you can download the app from here :
-
+\n you can download the app from here :
+https://play.google.com/store/apps/details?id=com.basemosama.smarthome
 
 # Esp8266 Setup
 The example Esp8266 code uses Arduino to program the Wifi Module .  
