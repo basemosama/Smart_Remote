@@ -1,3 +1,4 @@
+
 # Smart Remote
 This an Esp8266 Wifi module code to turn on or off Devices by using Smart Remote app.
 you can download the app from here :
@@ -10,15 +11,16 @@ you can follow the instructions in the link below
 https://github.com/esp8266/Arduino  
 
 # Libraries
-You will have to install these libraries :
-*Arduino Json :
+You will have to install these libraries 
+
+ - [ ] **Arduino Json :** 
 you can install it from library manger or from here 
  https://www.arduino.cc/reference/en/libraries/arduinojson/
- *SimpleTimer :
+ - [ ]  **SimpleTimer :**
  you will need to download it and put it in your arduio libraries folder from here :
  https://github.com/schinken/SimpleTimer
 
-## For More Informations on how to install the libraries you can follow this guide
+#### For More Informations on how to install the libraries you can follow this guide
 https://www.arduino.cc/en/Guide/Libraries
 
 # Setup
