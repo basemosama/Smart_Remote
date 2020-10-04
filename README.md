@@ -32,6 +32,13 @@ and then update the app ip address on the app settings.
 First the Esp8266 will create a local server that we will use to communicate with the app.
 for each device it will be represtende in json and has the following properties :(id - name - status - pin) 
 The server has 3 main routes we can use by sending POST requests and data will be sent and recived in json
+
+```no-highlight
+GET /
+
+will show a Hello World message to show that the server is working
+```
+
 ```no-highlight
 POST /status
 
@@ -105,6 +112,6 @@ Add timer to Turn On and Off a device or all your devices.
 
 # ScreenShots 
 
-Home Screen                                      |                  Adding Device                 |                   Editing Device                   |                 Adding Timer                     |                  Settings Screen                
-:--------------------------------------------------:|:---------------------------------------------------:|:----------------------------------------------------:|:-------------------------------------------------:|:--------------------------------------------
-<img src="https://lh3.googleusercontent.com/75-BTUdba6pUHIJGj69glQTYDzf8zosfpi4C2Vxm2-7JBvXtL5eRllwGz4zPwFkI_PkE=w1920-h937-rw" /> | <img src="https://lh3.googleusercontent.com/SERR1c4AGUDM1wyy4iIj-xjWSz24MxoAlIM1b-lnbcbkqG2M3r5aHBxyH7RKxZVZcTk=w1920-h937-rw" /> | <img src="https://lh3.googleusercontent.com/NPNdf_pVL_iEKinifRtrsCcz64nB5yj9B8IWNub5tcHGSQ3JeNy2AZ48AomNYuW1EA_W=w1920-h937-rw" /> | <img src="https://lh3.googleusercontent.com/bmkaJ5LiXwDsyu-G_x2knG5_cBCmUkLxJ_yL8MGpM1ZPvYlju9KAEFh_8L3CjSroLA=w1920-h937-rw" /> |<img src="https://lh3.googleusercontent.com/bl4mnTb94tkmLUmsLcv7ZiET_cbg31uPARiUdpmXrvHAGq4mEnTO_GH_3qrlWoc26Q7s=w1920-h937-rw" /> 
+Home Screen                                      |                  Adding Device                 |                   Editing Device                   |                 Adding Timer                |                  Active Timers              |                  Settings                
+:--------------------------------------------------:|:---------------------------------------------------:|:----------------------------------------------------:|:-------------------------------------------------:|:--------------------------------------------:|:--------------------------------------------
+<img src="https://github.com/basemosama/Smart_Remote/blob/main/Screenshots/home.png" /> | <img src="https://github.com/basemosama/Smart_Remote/blob/main/Screenshots/add_device.png" /> | <img src="https://github.com/basemosama/Smart_Remote/blob/main/Screenshots/edit_device.png" /> |<img src="https://github.com/basemosama/Smart_Remote/blob/main/Screenshots/timer.png" /> |<img src="https://github.com/basemosama/Smart_Remote/blob/main/Screenshots/timers.png" />|<img src="https://github.com/basemosama/Smart_Remote/blob/main/Screenshots/settings.png" /> 
